@@ -8,3 +8,4 @@ __pycache__/
 backend/uploads/*.csv
 backend/uploads/*.csv
 backend/uploads/*.csv
+wave-backend/uploads/*.csv
