@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 'use client';
 
 import React, { useState } from 'react';
@@ -89,7 +78,7 @@ function FreqChartCardComponent(props: FreqChartCardProps) {
       trigger: 'axis',
       formatter: (params: any) => {
         const { data } = params[0];
-        return 频率: ${data[0].toFixed(2)} Hz<br/>幅值: ${data[1].toFixed(4)};
+        return `频率: ${data[0].toFixed(2)} Hz<br/>幅值: ${data[1].toFixed(4)}`;
       },
     },
     xAxis: {
@@ -111,7 +100,7 @@ function FreqChartCardComponent(props: FreqChartCardProps) {
         markPoint: {
           data: filteredMarks.map((pt) => ({
             coord: [pt.freq, pt.amp],
-            name: pt.name || ${pt.freq.toFixed(2)}Hz,
+            name: pt.name || `${pt.freq.toFixed(2)}Hz`,
             value: pt.amp.toFixed(4),
             symbol: 'circle',
             symbolSize: 6,
@@ -155,5 +144,3 @@ function FreqChartCardComponent(props: FreqChartCardProps) {
 const FreqChartCard = React.memo(FreqChartCardComponent);
 
 export default FreqChartCard;
-
-
