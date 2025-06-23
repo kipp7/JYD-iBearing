@@ -16,7 +16,7 @@ const menuItems: HistoryItem[] = [
   { path: "/spectrum-analysis", label: "频谱分析" },
   { path: "/charts-dashboard", label: "数据对比" },
   { path: "/zhendong", label: "振动数据分析" },
-  { path: "/wendufenxi", label: "温度分析" },
+  { path: "/wendufenxi", label: "模型分析" },
   { path: "/lishifenxi", label: "历史趋势" },
   { path: "/weihuweixiu", label: "维护维修" },
   { path: "/jiankangyuce", label: "健康预测" },

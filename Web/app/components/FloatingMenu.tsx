@@ -104,7 +104,7 @@ const HoverSidebar = () => {
             {
               key: 'wendufenxi',
               icon: <PieChartOutlined />,
-              label: '温度分析',
+              label: '模型分析',
             },
             {
               key: 'lishifenxi',

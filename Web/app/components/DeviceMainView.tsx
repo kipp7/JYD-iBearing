@@ -6,7 +6,7 @@ import ThreeDModelViewer from './ThreeDModelViewer';
 
 const DeviceMainView = () => {
   const phmTestRigDetails = [
-    { label: '设备型号', value: 'PHM-Exp V2.1' },
+    { label: '设备型号', value: 'PHM-Exp V2.1' }, 
     { label: '序列号', value: 'SN7654321PHM' },
     //{ label: '安装日期', value: '2023-05-15' },
     //{ label: '上次维护', value: '2024-03-01' },
@@ -34,6 +34,35 @@ const DeviceMainView = () => {
     //{ label: '工作状态', value: <Badge status="success" text={<span className="text-green-400 font-medium text-xs md:text-sm">在线</span>} /> },
     { label: '最后同步', value: '刚刚' }, // Restored
   ];
+/*   const phmTestRigDetails = [
+    { label: 'Device Model', value: 'PHM-Exp V2.1' },
+    { label: 'Serial Number', value: 'SN7654321PHM' },
+    //{ label: 'Installation Date', value: '2023-05-15' },
+    //{ label: 'Last Maintenance', value: '2024-03-01' },
+    { label: 'Operating Mode', value: 'Automatic Fault Injection' },
+    { label: 'Rated Power', value: '2.2 kW' },
+    { label: 'Working Voltage', value: '380V AC' },
+    { label: 'Current Experiment', value: 'Outer Ring Fault Simulation' },
+    { label: 'Spindle Speed', value: '1100 rpm' },
+    //{ label: 'Current Load', value: 'Medium (65%)' },
+    //{ label: 'Ambient Temperature', value: '24.5°C' },
+    //{ label: 'Ambient Humidity', value: '55 %RH' }, // Restored some items
+  ];
+
+  const sensorDetails = [
+    { label: 'Sensor Model', value: 'VTall-S203L-1' },
+    { label: 'Sensor ID', value: 'SN-VT203L1-01' },
+    { label: 'Installation Position', value: 'Main Bearing Housing (Drive End)' }, // Restored detail
+    { label: 'Communication Protocol', value: 'Modbus RTU' },
+    { label: 'Vibration Direction', value: 'X,Y,Z Axis' }, // Restored
+    { label: 'Vibration Range', value: '±16g(X/Y), ±10g(Z)' },
+    { label: 'Temperature Range', value: '-40~125°C' },
+    //{ label: 'Real-time Temperature', value: '38.2°C' },
+    { label: 'Communication Interface', value: 'RS485' }, // Restored
+    { label: 'Protection Level', value: 'IP67' },
+    //{ label: 'Working Status', value: <Badge status="success" text={<span className="text-green-400 font-medium text-xs md:text-sm">Online</span>} /> },
+    { label: 'Last Sync', value: 'Just now' }, // Restored
+  ]; */
 
   return (
     // 主容器: 恢复 flex-1, 调整内边距和gap到合理水平

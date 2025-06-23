@@ -61,6 +61,9 @@ export default function TimeDomainUpload() {
     const analyzeResult = await analyzeRes.json();
     const vmdResult = await vmdRes.json();
 
+    console.log('从 /api/analyze 获取到的数据:', analyzeResult);
+    console.log('从 /api/vmd 获取到的数据:', vmdResult);
+
     if (!analyzeResult.success || !vmdResult.success)
       throw new Error('分析失败');
 

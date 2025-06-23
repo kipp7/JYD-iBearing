@@ -1,0 +1,9 @@
+{
+  "required_columns": [
+    "X轴加速度(g)",
+    "Y轴加速度(g)",
+    "Z轴加速度(g)",
+    "采样频率(Hz)"
+  ],
+  "optional_columns": []
+}
